@@ -21,6 +21,11 @@
 		39ED20D5191F8DDC00F488DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ED20B7191F8DDC00F488DE /* UIKit.framework */; };
 		39ED20DD191F8DDC00F488DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39ED20DB191F8DDC00F488DE /* InfoPlist.strings */; };
 		39ED20DF191F8DDC00F488DE /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ED20DE191F8DDC00F488DE /* User_Data_Challenge_SolutionTests.m */; };
+		39ED20EA191F8EE200F488DE /* MSUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ED20E9191F8EE200F488DE /* MSUserData.m */; };
+		39ED20EF191F9D8500F488DE /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39ED20EB191F9D8500F488DE /* person1.jpeg */; };
+		39ED20F0191F9D8500F488DE /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39ED20EC191F9D8500F488DE /* person2.jpeg */; };
+		39ED20F1191F9D8500F488DE /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39ED20ED191F9D8500F488DE /* person3.jpg */; };
+		39ED20F2191F9D8500F488DE /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39ED20EE191F9D8500F488DE /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		39ED20DA191F8DDC00F488DE /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		39ED20DC191F8DDC00F488DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39ED20DE191F8DDC00F488DE /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		39ED20E8191F8EE200F488DE /* MSUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUserData.h; sourceTree = "<group>"; };
+		39ED20E9191F8EE200F488DE /* MSUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUserData.m; sourceTree = "<group>"; };
+		39ED20EB191F9D8500F488DE /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		39ED20EC191F9D8500F488DE /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		39ED20ED191F9D8500F488DE /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		39ED20EE191F9D8500F488DE /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +126,8 @@
 				39ED20C2191F8DDC00F488DE /* MSAppDelegate.h */,
 				39ED20C3191F8DDC00F488DE /* MSAppDelegate.m */,
 				39ED20C5191F8DDC00F488DE /* Main.storyboard */,
+				39ED20E8191F8EE200F488DE /* MSUserData.h */,
+				39ED20E9191F8EE200F488DE /* MSUserData.m */,
 				39ED20C8191F8DDC00F488DE /* MSViewController.h */,
 				39ED20C9191F8DDC00F488DE /* MSViewController.m */,
 				39ED20CB191F8DDC00F488DE /* Images.xcassets */,
@@ -126,6 +139,10 @@
 		39ED20BA191F8DDC00F488DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39ED20EB191F9D8500F488DE /* person1.jpeg */,
+				39ED20EC191F9D8500F488DE /* person2.jpeg */,
+				39ED20ED191F9D8500F488DE /* person3.jpg */,
+				39ED20EE191F9D8500F488DE /* person4.jpeg */,
 				39ED20BB191F8DDC00F488DE /* User Data Challenge Solution-Info.plist */,
 				39ED20BC191F8DDC00F488DE /* InfoPlist.strings */,
 				39ED20BF191F8DDC00F488DE /* main.m */,
@@ -229,9 +246,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39ED20F1191F9D8500F488DE /* person3.jpg in Resources */,
+				39ED20EF191F9D8500F488DE /* person1.jpeg in Resources */,
 				39ED20CC191F8DDC00F488DE /* Images.xcassets in Resources */,
 				39ED20BE191F8DDC00F488DE /* InfoPlist.strings in Resources */,
+				39ED20F2191F9D8500F488DE /* person4.jpeg in Resources */,
 				39ED20C7191F8DDC00F488DE /* Main.storyboard in Resources */,
+				39ED20F0191F9D8500F488DE /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39ED20EA191F8EE200F488DE /* MSUserData.m in Sources */,
 				39ED20C4191F8DDC00F488DE /* MSAppDelegate.m in Sources */,
 				39ED20CA191F8DDC00F488DE /* MSViewController.m in Sources */,
 				39ED20C0191F8DDC00F488DE /* main.m in Sources */,

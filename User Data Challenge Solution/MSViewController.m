@@ -7,6 +7,7 @@
 //
 
 #import "MSViewController.h"
+#import "MSUserData.h"
 
 @interface MSViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.users = [MSUserData users];
+    
+    NSLog(@"%@", self.users);
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,4 +10,6 @@
 
 @interface MSViewController : UIViewController
 
+@property NSArray *users;
+
 @end
