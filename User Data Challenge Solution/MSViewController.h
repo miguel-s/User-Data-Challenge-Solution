@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MSViewController : UIViewController
+@interface MSViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property NSArray *users;
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
